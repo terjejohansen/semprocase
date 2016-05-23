@@ -1,0 +1,164 @@
+.alertify .ajs-dialog {
+  background-color: white;
+  border-radius: 2px;
+}
+.ajs-header {
+  	color: black;
+	margin-bottom: 10px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.alertify-dialog {
+	text-align: left;
+	position: fixed;
+	top: 10%;
+	width: 25%;
+	margin-left: 15px;
+	margin-right: auto;
+	background: #FFF;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, .3);
+	-webkit-background-clip: padding; /* Safari 4? Chrome 6? */
+	-moz-background-clip: padding; /* Firefox 3.6 */
+	background-clip: padding-box;
+	z-index: 9999; /* Firefox 4, Safari 5, Opera 10, IE 9 */
+}
+
+.ajs-primary, .alertify-buttons {
+	text-align: center;
+}
+
+.alertify .ajs-modal {
+	position: fixed;
+	top: 5%;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding: 0;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, .3);
+	-webkit-background-clip: padding; /* Safari 4? Chrome 6? */
+	-moz-background-clip: padding; /* Firefox 3.6 */
+	background-clip: padding-box;
+	overflow-y: auto;
+	z-index: 1999;
+}
+
+.alertify-cover {
+	position: fixed;
+	z-index: 1981;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	background-color: #252525;
+	opacity: .6;
+}
+
+.ajs-commands {
+	position: absolute;
+	right: 4px;
+	margin: -14px 24px 0 0;
+	z-index: 2;
+}
+
+.alertify-hidden, .alertify-cover-hidden {
+	display: none !important;
+}
+.alertify .ajs-reset {
+	position: absolute !important;
+	display: inline !important;
+	width: 0 !important;
+	height: 0 !important;
+	opacity: 0 !important;
+}
+
+.alertify-resetFocus {
+	display:none;
+}
+.ajs-commands button {
+	display: none;
+	width: 10px;
+	height: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	border: 0;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+
+.alertify .ajs-body {
+	color: black;
+	margin: 10px;
+}
+.alertify .ajs-body .ajs-content .ajs-input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 4px;
+  border-radius: 2px;
+  border: 1px solid #CCC;
+}
+.alertify .ajs-body .ajs-content p {
+  margin-bottom: 10px;
+}
+.alertify .ajs-footer {
+
+}
+.alertify .ajs-footer .ajs-buttons .ajs-button {
+	width: 70px;
+	height: 30px;
+	color: #000;
+	margin-right: 10px;
+	border: 0;
+	font-size: 14px;
+	font-weight: bold;
+text-transform: uppercase;
+}
+.alertify .ajs-footer .ajs-buttons .ajs-button.ajs-ok {
+  color: black;
+}
+
+#alertify-ok, #alertify-cancel {
+	padding: 10px 30px;
+	margin: 0 auto;
+	background-color: #F5CD51;
+	
+}
+
+#alertify-cancel {
+	margin-left: 10px;
+}
+
+.alertify-notifier .ajs-message {
+  background: rgba(255, 255, 255, 0.95);
+  color: #000;
+  text-align: center;
+  border: solid 1px #ddd;
+  border-radius: 2px;
+}
+.alertify-notifier .ajs-message.ajs-success {
+  color: #fff;
+  background: rgba(91, 189, 114, 0.95);
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+}
+.alertify-notifier .ajs-message.ajs-error {
+  color: #fff;
+  background: rgba(217, 92, 92, 0.95);
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+}
+.alertify-notifier .ajs-message.ajs-warning {
+  background: rgba(252, 248, 215, 0.95);
+  border-color: #999;
+}
+
+.ui-loader-default {
+	display:none;
+}
